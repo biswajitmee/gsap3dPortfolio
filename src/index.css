@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+
+
+}
+
+
+@layer utilities {
+
+  .navBackground{ background-color: blueviolet; }   
+  .navCanvas{background-color: rgb(226, 43, 101); }
+    
+.menuIcon{ 
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    right: 25px;
+    top: 25px;
+    z-index: 999;
+}
+
+}
