@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <div className="menuIcon"> </div>
+    <div className="menuIcon"> Menu</div>
  <Navbarr />
     </>
   )
