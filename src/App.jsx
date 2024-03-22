@@ -1,7 +1,8 @@
-import react from 'react'
+ 
  
 import './App.css'
-import Navbarr from './pages/Navbarr'
+import Header from './pages/Header'
+ 
  
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
 
   return (
     <>
-    <div className="menuIcon"> Menu</div>
- <Navbarr />
+   <Header />
+ 
     </>
   )
 }

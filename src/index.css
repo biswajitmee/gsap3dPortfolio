@@ -4,18 +4,27 @@
 
 
 
-@layer components {
-
-
-}
+@layer components {}
 
 
 @layer utilities {
 
-  .navBackground{ background-color: blueviolet; }   
-  .navCanvas{background-color: rgb(226, 43, 101); }
-    
-.menuIcon{ 
+  .navBackground {
+    background-color: blueviolet;
+    display: none;
+  }
+
+  .navBackground.show {
+    display: block;
+    /* Show the navigation menu */
+  }
+
+
+  .navCanvas {
+    background-color: rgb(226, 43, 101);
+  }
+
+  .menuIcon {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -23,6 +32,8 @@
     right: 25px;
     top: 25px;
     z-index: 999;
-}
+    cursor: pointer;
+
+  }
 
 }
