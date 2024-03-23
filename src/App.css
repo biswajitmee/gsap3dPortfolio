@@ -582,20 +582,6 @@ video {
   line-height: 1;
 }
 
-.navBackground {
-  background-color: blueviolet;
-  display: none;
-}
-
-.navBackground.show {
-  display: block;
-  /* Show the navigation menu */
-}
-
-.navCanvas {
-  background-color: rgb(226, 43, 101);
-}
-
 .menuIcon {
   position: absolute;
   width: 50px;
@@ -605,4 +591,22 @@ video {
   top: 25px;
   z-index: 999;
   cursor: pointer;
+}
+
+.navBackground {
+  display: none;
+}
+
+.navBackground.show {
+  display: block;
+}
+
+.navCanvas {
+  position: absolute;
+}
+
+.canvas{
+  height: 100vh;
+  width: 100vh;
+  position: absolute;
 }
