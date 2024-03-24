@@ -1,20 +1,14 @@
-
+import React from 'react';
 import { Canvas } from '@react-three/fiber'
- 
+import { CustomeShape } from './CustomeShape';
 
-
-import { Icons } from './Icons'
 
 export default function MenuCanvas() {
   return (
     <>
-              
-<Canvas style={{height:"100vh", width:"100vw", backgroundColor:"transparent",}}>
-        
-         <Icons />
-    
-       
- </Canvas>
+      <Canvas style={{ height: "100vh", width: "100vw", backgroundColor: "red", }}>
+        <CustomeShape />
+      </Canvas>
     </>
   )
 }

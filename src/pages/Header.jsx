@@ -13,14 +13,14 @@ function Header() {
 
     return (
         <div>
-            
+
             <div className="menuIcon" onClick={toggleMenu}>Menu click</div>
 
-            <div className={`navBackground ${isMenuOpen ? 'show' : ''}`} onClick={toggleMenu}>
+            <div className={`navBackground ${isMenuOpen ? 'show' : ''}`}  >
 
-                    <div className="canvas">
-<MenuCanvas />
-                    </div>
+                <div className="canvas">
+                    <MenuCanvas />
+                </div>
 
 
                 <div className='navCanvas flex items-center justify-center h-screen w-screen'>
