@@ -603,6 +603,8 @@ video {
 
 .navCanvas {
   position: absolute;
+  background-color: black;
+  color: azure;
 }
 
 .canvas{

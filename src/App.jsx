@@ -1,8 +1,9 @@
  
  
 import './App.css'
-// import Header from './pages/Header'
-import MenuCanvas from './pages/MenuCanvas'
+import { CustomeShape } from './pages/CustomeShape'
+import Header from './pages/Header'
+ 
 
  
  
@@ -12,8 +13,8 @@ function App() {
 
   return (
     <>
-   {/* <Header /> */}
- <MenuCanvas  />
+   <Header />
+ 
     </>
   )
 }
