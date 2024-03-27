@@ -1,20 +1,11 @@
- 
- 
 import './App.css'
-import { CustomeShape } from './pages/CustomeShape'
-import Header from './pages/Header'
  
-
- 
- 
+import Navigation from './pages/0navigation/Navigation'
 
 function App() {
- 
-
   return (
     <>
-   <Header />
- 
+ <Navigation />
     </>
   )
 }

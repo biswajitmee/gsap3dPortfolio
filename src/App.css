@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -603,7 +607,6 @@ video {
 
 .navCanvas {
   position: absolute;
-  background-color: black;
   color: azure;
 }
 
