@@ -1,12 +1,17 @@
 import './App.css'
-import BabylonScene from './pages/0navigation/BabylonCanvas'
+import BabylonScene from './BabylonCanvas'
  
 import Navigation from './pages/0navigation/Navigation'
+ 
+ 
 
 function App() {
   return (
     <>
- {/* <Navigation /> */}
+ 
+ 
+{/* <Navigation /> */}
+ 
  <BabylonScene />
     </>
   )

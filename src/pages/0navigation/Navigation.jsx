@@ -71,9 +71,8 @@ function Navigation() {
                                 fragmentShader={fragmentShader}  />
 
                                 <Cycle position={[-3,0,0]} />
-
-                                <Camera position={[4,0,0]} scale={[0.03,0.03,0.03]} />
- <GlobeSimple  position={[-3,0,0]}  scale={[0.9,0.9,0.9]} />
+  <Camera position={[4,0,0]} scale={[0.03,0.03,0.03]} />
+ <GlobeSimple  position={[-2,0,0]}  scale={[1.9,1.9,1.9]} />
                         <Earth position={earthPosition} scale={earthScale} />
                         <PerspectiveCamera />
                         <OrbitControls />

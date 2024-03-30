@@ -8,6 +8,11 @@ import { useFrame } from '@react-three/fiber';
 import vertexShaderSource from './vertexShaderG.glsl';
 import fragmentShaderSource from './fragmentShaderG.glsl';
 
+
+
+
+
+
 export function Sprnil(props) {
   const { nodes, materials } = useGLTF('./sprnil.glb');
   const mesh = useRef();
@@ -48,7 +53,4 @@ useFrame((state, delta) => {
   );
 }
 
-export function SprnilWithPreload(props) {
-  useGLTF.preload('./sprnil.glb');
-  return <Sprnil {...props} />;
-}
+
