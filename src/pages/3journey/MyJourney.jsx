@@ -2,7 +2,7 @@ import React from 'react'
 
 function MyJourney() {
   return (
-    <div>MyJourney</div>
+    <h6>MyJourney</h6>
   )
 }
 

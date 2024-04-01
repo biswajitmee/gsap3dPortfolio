@@ -10,9 +10,8 @@ function App() {
     <>
  
  
-{/* <Navigation /> */}
+<Navigation />
  
- <BabylonScene />
     </>
   )
 }

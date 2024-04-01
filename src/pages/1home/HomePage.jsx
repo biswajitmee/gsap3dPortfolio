@@ -1,13 +1,14 @@
 import React from 'react'
+import FrontCanvas from './FrontCanvas'
  
 
 function HomePage() {
   return (
     < >
       
-<h1>Home page</h1>
-
-
+ <div className="home" style={{backgroundColor:"#000",}}>
+<FrontCanvas />
+</div>
     </ >
 
 
